@@ -7,6 +7,13 @@ module.exports = {
   plugins: [
     "gatsby-plugin-react-helmet",
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: ["Fjalla One", "Libre Baskerville"],
+        display: "swap",
+      },
+    },
+    {
       resolve: "gatsby-plugin-sass",
       options: {
         sassOptions: {
